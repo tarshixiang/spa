@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+	<nav>
+		<div class="search">
+			<i></i>
+			<input type="text" placeholder="请输入手机型号">			
+		</div>
+		<a href="javascript:;">个人中心</a>
+	</nav>
+	<div class="banner"><img src="img/banner.png" alt=""></div>
+
+	<div class="box">
+		<section>
+			<h3>选择手机品牌</h3>
+			<ul>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>
+				<li><img src="img/htc.jpg" alt=""> </li>			
+			</ul>		
+		</section>
+		<div class="row"></div>
+		<footer>
+			<ul>
+				<li>
+					<img src="img/ic1.png">
+					<p>价格公道</p>
+				</li>
+				<li>
+					<img src="img/ic2.png">
+					<p>顺丰包邮</p>
+				</li>
+				<li>
+					<img src="img/ic3.png">
+					<p>隐私保护</p>
+				</li>
+				<li>
+					<img src="img/ic4.png">
+					<p>专业检测</p>
+				</li>
+			</ul>
+			<div>
+				<i></i>
+				<p>4008-123-390</p>
+			</div>
+		</footer>
+	</div>
+	<script>
+		function resize() {
+            var clientWidth = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = 100 * (clientWidth / 320) + 'px';
+        }
+        resize();
+        window.addEventListener('resize', resize);
+	</script>
+</body>
+</html>
